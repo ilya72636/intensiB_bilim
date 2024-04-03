@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="fonts/poppins/stylesheet.css">
+
+    <link rel="stylesheet" href="css/page_aboutus.css">
+</head>
+<body class="light">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <p>БИЛИМ</p>
+                    <img src="images/header__logo.svg" alt="" class="header_logo">
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="home.html">Дом</a></li>
+                        <li><a href="aboutus.html"><b>О нас</b></a></li>
+                        <li><a href="management.html">Управление</a></li>
+                        <li><a href="news&event.html">Новости и события</a></li>
+                        <li><a href="gallery.html">Галарея</a></li>
+                        <li><a href="#form">Связаться с нами</a></li>
+                    </ul>
+                </nav>
+                <div class="burgermenu">
+                    <div class="burger-icon" onclick="toggleBurgerMenu()">&#9776;</div>
+                    <ul id="burgerMenuitems">
+                        <li><a href="home.html">Дом</a></li>
+                        <li><a href="aboutus.html"><b>О нас</b></a></li>
+                        <li><a href="management.html">Управление</a></li>
+                        <li><a href="news&event.html">Новости и события</a></li>
+                        <li><a href="gallery.html">Галарея</a></li>
+                        <li><a href="#form">Связаться с нами</a></li>
+                    </ul>
+                </div>
+                <button class="switchMode"></button>
+            </div>  
+        </div>
+    </header>
+    <section class="intro">
+        <div class="container">
+            <div class="intro__info">
+                <div class="intro__info_h1">
+                    <h1>О НАС</h1>
+                </div>
+                <div class="intro__info_p">
+                    <p>Дом</p>
+                    <img src="images/Vector 1.svg" alt="">
+                    <p class="pin">О нас</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tect">
+        <div class="container">
+            <p class="tect_p">ТОО  Кордайский Центр Дополнительного Образования "Интенсив-Бiлiм" основан в  26 декабря 1996 года. В настоящее время, это многопрофильная организация образования, предоставляющая широкий спектр образовательных услуг. 
+                Одним из основных направлений деятельности центра является адресная подготовки детей предшкольного возраста к обучению в школе. Для этого у нас созданы все необходимые условия: просторные теплые классы, высококвалифицированные педагоги, уникальные педагогические технологии, современная учебно- материальная база.</span>
+            </p>
+            <button id="btnRead" onclick="readMore()">Подробнее</button>
+        </div>
+    </section>
+    <section class="text1">
+        <div class="container">
+                <div class="text1__info">
+                    <img class="info_stydent" src="images/stydent.webp" alt="">
+                    <div class="text1__info__text">
+                        <div class="title__sub">
+                            <h4>Наша <b>Команда</b></h4>
+                            <img src="images/Line.png" alt="">
+                        </div>
+                        <p>Одной из главных составляющих успешной предпринимательской деятельности центра "Интенсив - Бiлiм" без сомнения является сильная преданная команда сотрудников, работающих в центре на протяжении многих лет. Это профессиональный, многонациональный, дружной коллектив. Педагоги дошкольного мини - центра -  уникальные в своём роде личности: они профессионалы с большой буквы, которые очень любят свою работу и любят детей. Для преподавания наш центр приглашает самых высококвалифицированных специалистов в своей области. Все они общие друзья и соратники.</p>
+                    </div>
+                </div>
+                <div class="text2__info">  
+                    <div class="text2__info__text">
+                        <div class="title__sub">
+                            <h4>Наша <b>Цель</b></h4>
+                            <img src="images/Line.png" alt="">
+                        </div>
+                        <p>Создание и формирования стартовых возможностей детей дошкольников, имеющих разный уровень физического психического и интеллектуального развития, в том числе ранее посещающих и не посещающих детский сад. Причём речь идёт не только о качестве образования, но и об обеспечении конкурентоспособности будущего школьника, обеспечение качества его жизни.
+                            Ребёнок проявляет самостоятельность в моментах, связанных с поступлением в школу, он решает возникающие проблемы самостоятельно. Он умеет осуществлять диалог со сверстниками и взрослыми, разрешать конфликты и договариваться. Более того у него появляется интерес к предстоящему школьному обучению и отсутствуют школьные страхи.</p>
+                    </div>
+                    <img class="info_stydent" src="images/stydent.webp" alt="">
+                </div>
+                <div class="text3__info">
+                    <img class="info_stydent" src="images/ymnie_khodrati.jpg" alt="">
+                    <div class="text3__info__text">
+                        <div class="title__sub">
+                            <h4>Наша <b>Методика</b></h4>
+                            <img src="images/Line.png" alt="">
+                        </div>
+                        <p>Для детей дошкольного возраста игра имеет исключительное значение: игра для них - учеба, игра для них - труд, игра для  них - серьезная форма воспитания. Игра для дошкольников - способ познания окружающего мира.
+                            Дидактическое игровое пособие "Умные квадраты" настоящая палочка-выручалочка для воспитателей в ДО или педагогов впредшколе,  которое создано в целях освоения Типовой учебной программы дошкольного воспитания и обучения с требованиями Государственного общеобязательного стандарта</p>
+                    </div>
+                </div>
+        </div>
+    </section> 
+    <section class="english">
+        <div class="container">
+            <h2>Tiki-Room</h2>
+            <div class="english__info">
+                <img src="images/tiki-room.jpg" alt="">
+                <p> Welcome to our. English Tiki-Room. 
+                    Мы поможем вашему ребёнку : углубить знания по предмету, выполнить домашнее задание, расширить лексический запас английских слов.освоить навыки говорения, аудирования, чтения и письма, развивать мышление, память,логику, использовать английский язык в обиходном общении. И всё это в уютной, доброй, дружной обстановке.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__bac">
+            <div class="container">
+                <div class="footer__title">
+                    <h1 class="footer__title__info">A wonderful <b>FIRST</b> out of home learning <b>EXPERIENCE</b> For you Child.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bac__two">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="content__row">
+                        <img src="images/header__logo.svg" alt="">
+                        <p>Билим — выдающийся детский сад и начальная школа, ориентированная на образовательную систему, помогающую детям читать и писать.</p>
+                        <div class="content__group__btn">
+                            <img src="images/whatsapp__icon.svg" alt=""><a href=""></a></img>
+                            <img src="images/instagram__icon.svg" alt=""><a href=""></a></img>
+                        </div>
+                    </div>
+                    <div class="content__row">
+                        <h5>Links</h5>
+                        <ol>
+                            <li><a href="home.html">Дом</a></li>
+                            <li><a href="aboutus.html">О нас</a></li>
+                            <li><a href="management.html">Управление</a></li>
+                            <li><a href="news&event.html">События</a></li>
+                            <li><a href="gallery.html">Галарея</a></li>
+                            <li><a href="">Связаться</a></li>
+                        </ol>
+                    </div>
+                    <div class="content__row">
+                        <h5>Find Us</h5>
+                        <div class="block__info__content">
+                            <p><img src="images/safari__icon__footer.png" alt="">Lorem ipsum dolor siter amet, consectetur adipising.</p>
+                        </div>
+                        <div class="block__info__content">
+                            <img src="images/envelope__icon__footer.png" alt="">
+                            <p>Info@gmail.com</p>
+                        </div>
+                        <div class="block__info__content">
+                            <img src="images/phone__footer.png" alt="">
+                            <p>+7 775 709 7075 <br> +7 775 709 7075</p>
+                        </div>
+                    </div>
+                    <div class="content__row">
+                        <h5>Contact us</h5>
+                        <form id="form">
+                            <input type="text" id="forName" class="_req" placeholder="Введите имя">
+                            <input type="text" id="forEmail" class="_req _email" placeholder="Введите e-mail">
+                            <input type="text" id="forNumber" class="_req" placeholder="Введите номер">
+                            <button type="submit" class="btn__fields">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
+
+

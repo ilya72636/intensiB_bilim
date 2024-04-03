@@ -1,0 +1,1385 @@
+
+.home__intro
+    background-color: rgba(0, 0, 0, 0.5)
+    background-image: url(../images/back__header.webp) 
+    background-repeat: no-repeat
+    background-position: center
+    width: 100%
+    max-width: 1900px
+    margin: 0 auto
+    background-size: cover
+    padding: 40px 0px 23px 0px 
+
+// .fixed
+//     position: fixed
+//     width: 100%
+//     left: 0
+//     top: 0
+//     background: #ffffff
+//     transition: 1s 
+
+.home__intro__content 
+    width: 514px
+    height: 423px
+    background: #FF725E
+    border-radius: 10px 
+
+    .home__intro__info
+        font-size: 30px
+        color: #fff
+        padding: 30px 30px 25px 30px
+        b
+            color: #000
+
+    .home__intro__text
+        font-size: 20px
+        padding: 0px 30px 35px 30px
+
+    .intro__btn
+        margin-left: 30px
+        transition: 500ms 70ms
+    .intro__btn:hover 
+        background-color: #fbf5f5 /* Цвет фона */
+        box-shadow: 0 0 0 2px #FF725E, 0 0 0 4px #ffffff /* Тень в виде рамки */
+
+
+.circle__title
+    width: 1092px
+    height: 385px
+    margin: 0 auto
+    margin-top: 47px 
+    
+    
+
+    .title__cards
+        display: flex
+        justify-content: space-between
+        align-items:  flex-start
+        padding: 40px 0px 0px 0px
+
+           
+        .card.animation-class 
+            opacity: 1
+            transform: translateY(0px)
+        .card
+            display: flex
+            opacity: 0
+            transform: translateY(50px)
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out
+
+            flex-direction: column
+            align-items: center
+            width: 350px
+            gap: 10px
+            h5
+                font-size: 22px
+            p
+                text-align: center
+                width: 350px
+
+// event
+
+.event
+    background: #f2f2f2
+    padding: 30px
+
+
+.btn__bilim
+    display: flex
+    justify-content: center
+    margin-top: 61px
+    
+
+.event__title__cards
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 60px
+    .event__card.animation-class
+        opacity: 1
+        transform: translateX(0px)
+    .event__card.animation-class:nth-child(2)
+        opacity: 1
+        transition-delay: 0.3s
+        transform: translateX(0px)
+    .event__card.animation-class:nth-child(3)
+        opacity: 1
+        transition-delay: 0.4s
+        transform: translateX(0px)
+ 
+    .event__card
+        width: 344px
+        transition: opacity 0.2s ease-in-out, transform 0.3s ease-in-out
+        opacity: 0
+        transform: translateX(-30px)
+        border-radius: 10px
+        background: #fff 
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)
+        img
+            padding-top: 10px
+            margin: 0 auto
+        p
+            width: 284px
+            margin: 0 auto
+            padding: 25px 0px 0px 0px
+        .event__span
+            margin: 20px 0px 10px 28px 
+            
+// .hovr__img
+//         overflow: hidden
+// .hover
+//     transition: 1s 
+// .hover:hover
+//     transform: scale(1.1)
+
+.gallery__title__cards
+    overflow: hidden
+.gallery__card.animation-class 
+    opacity: 1
+    transform: translateY(0px)
+.gallery__card
+    opacity: 0
+    transform: translateY(50px)
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out
+
+
+
+.team
+    background: #f2f2f2
+    padding: 30px
+
+.btn__slider__group
+        display: none
+
+.team__title__cards
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 28px
+    .team__card.animation-class
+        opacity: 1
+    .team__card.animation-class:nth-child(2)
+        opacity: 1
+        transition-delay: 0.3s
+    .team__card.animation-class:nth-child(3)
+        opacity: 1
+        transition-delay: 0.4s
+    .btn__slider__group
+        display: none
+    .team__card
+        width: 300px
+        transition: opacity 0.2s ease-in-out, transform 0.3s ease-in-out
+        opacity: 0
+        transform: translateX(-30px)
+        height: 497px
+        border-radius: 3px
+        background: #f1f1f1 
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)  
+        img
+            padding: 0px 0px 10px 0px 
+        .profession__info
+            padding: 0px 170px 10px 20px
+            color: #FF725E
+            width: 112%
+        h3
+            padding: 0px 0px 10px 20px
+            font-size: 22px
+            color: #000
+        .team__card__info
+            padding: 0px 20px 52px 20px
+
+.gallery
+    background: #ffffff
+
+             
+
+.gallery__title
+    margin-top: 40px
+    .gallery__title__cards
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 49px
+        .gallery__group__none
+            display: none
+
+@media screen and (max-width: 1198px) and (min-width: 890px)
+    .home__intro
+        background-color: rgba(0, 0, 0, 0.5)
+        background-image: url(../images/back__header.webp) 
+        background-repeat: no-repeat
+        background-position: center
+        width: 100%
+        max-width: 1900px
+        margin: 0 auto
+        background-size: cover
+        padding: 30px 0px 23px 0px 
+    .home__intro__content 
+        width: 434px
+        height: 303px
+        background: #FF725E
+        border-radius: 10px 
+
+        .home__intro__info
+            font-size: 23px
+            color: #fff
+            padding: 25px 25px 20px 25px
+            b
+                color: #000
+
+        .home__intro__text
+            font-size: 16px
+            padding: 0px 30px 35px 30px
+
+        .intro__btn
+            margin-left: 25px
+
+
+    .circle__title
+        width: 840px
+        height: 385px
+        margin: 0 auto
+        margin-top: 47px 
+
+        .title__cards
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 30px 0px 0px 0px
+            .card
+                display: flex
+                flex-direction: column
+                align-items: center
+                width: 240px
+                gap: 10px
+                h5
+                    font-size: 16px
+                p
+                    text-align: center
+                    width: 240px
+
+    // event
+
+    .event
+        background: #f2f2f2
+        padding: 25px
+
+
+    .btn__bilim
+        display: flex
+        justify-content: center
+        margin-top: 61px
+        
+
+    .event__title__cards
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 60px
+
+        .event__card
+            width: 240px
+            border-radius: 10px
+            background: #fff 
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.20)
+            img
+                padding-top: 10px
+                margin: 0 auto
+                width: 235px
+            p
+                width: 230px
+                margin: 0 auto
+                padding: 20px 5px 0px 5px
+            .event__span
+                margin: 20px 0px 10px 28px 
+                
+
+
+    .team
+        background: #f2f2f2
+        padding: 17px
+
+    .btn__slider__group
+        display: none
+
+    .team__title__cards
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 28px
+
+        .team__card
+            width: 230px
+            height: 407px
+            border-radius: 3px
+            background: #f1f1f1 
+            box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)  
+            img
+                padding: 0px 0px 10px 0px 
+                width: 229px
+            .profession__info
+                padding: 0px 170px 10px 20px
+                color: #FF725E
+                width: 138%
+            h3
+                padding: 0px 0px 10px 20px
+                font-size: 16px
+                color: #000
+            .team__card__info
+                padding: 0px 20px 20px 20px
+
+    .gallery
+        background: #ffffff
+        
+    .gallery__title
+        margin-top: 40px
+
+        .gallery__title__cards
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-top: 49px
+            .gallery__group__none
+                display: none
+            .gallery__card
+                img
+                    width: 240px
+
+@media screen and (max-width: 890px) and (min-width: 570px)
+    .home__intro
+        background-color: rgba(0, 0, 0, 0.5)
+        background-image: url(../images/back__header.webp) 
+        background-repeat: no-repeat
+        background-position: center
+        width: 100%
+        max-width: 1900px
+        object-position: 0 0
+        margin: 0 auto
+        background-size: cover
+        padding: 30px 0px 23px 0px 
+    .home__intro__content 
+        width: 334px
+        height: 253px
+        background: #FF725E
+        // margin: 0 auto
+        border-radius: 10px 
+
+        .home__intro__info
+            font-size: 18px
+            color: #fff
+            padding: 25px 25px 20px 25px
+            b
+                color: #000
+
+        .home__intro__text
+            font-size: 14px
+            padding: 0px 20px 25px 23px
+
+        .intro__btn
+            margin-left: 25px
+
+
+    .circle__title
+        width: 540px
+        height: 385px
+        margin: 0 auto
+        margin-top: 47px 
+
+        .title__cards
+            margin-top: 40px
+            display: flex
+            justify-content: center
+            gap: 44px
+            align-items: center
+            flex-wrap: wrap
+
+            padding: 20px 0px 0px 0px
+            .card
+                display: flex
+                flex-direction: column
+                align-items: center
+                width: 240px
+                gap: 10px
+                h5
+                    font-size: 16px
+                p
+                    text-align: center
+                    width: 180px
+                img
+                    width: 100px
+
+    // event
+
+    .event
+        background: #f2f2f2
+        padding: 25px 0px 0px 0px
+        margin-top: 210px
+
+
+    .btn__bilim
+        display: flex
+        justify-content: center
+        margin-top: 61px
+        
+
+    .event__title__cards
+        display: flex
+        justify-content: space-around
+        align-items: center
+        flex-wrap: wrap
+        gap: 14px
+        margin-top: 60px
+
+        .event__card
+            width: 240px
+            border-radius: 10px
+            background: #fff 
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.20)
+            img
+                padding-top: 10px
+                margin: 0 auto
+                width: 235px
+            p
+                width: 230px
+                margin: 0 auto
+                padding: 20px 5px 0px 5px
+            .event__span
+                margin: 20px 0px 10px 28px 
+                
+
+
+    .team
+        background: #f2f2f2
+        padding-bottom: 450px
+        .container
+            width: 550px    
+
+    .team__title
+        height: 300px
+        padding: 0
+
+    .btn__slider__group
+        display: none
+
+    .team__title__cards
+        transform: rotate(90deg)
+        margin-top: 108px
+        height: 500px  
+        display: flex
+        align-items: flex-end
+        
+
+        .team__card
+            width: 157px
+            transform: rotate(270deg)
+            height: 157px
+            display: flex
+            border-radius: 3px
+            background: #f1f1f1 
+            box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20) 
+            img
+                padding: 0px 0px 0px 0px 
+                width: 207px 
+            .info__team__card__text
+                background: #fff
+                border-radius: 0px 5px 5px 0px
+                width: 300px
+                display: flex
+                flex-direction: column         
+
+                .profession__info
+                    padding: 20px 170px 20px 20px
+                    color: #FF725E
+                    font-size: 14px
+                    width: 138%
+                h3
+                    padding: 0px 0px 10px 20px
+                    font-size: 16px
+                    color: #000
+                .team__card__info
+                    padding: 0px 20px 20px 20px 
+
+    .gallery
+        background: #ffffff
+
+        .gallery__title__cards
+            display: flex
+            justify-content: space-around
+            gap: 44px 
+            align-items: center
+            flex-wrap: wrap
+            margin-top: 49px
+            .gallery__group__none
+                display: block
+
+            .gallery__card
+                img
+                    width: 190px
+
+@media screen and (max-width: 570px) and (min-width: 320px)
+ 
+    .home__intro__content 
+        width: 334px
+        height: 253px
+        background: #FF725E
+        margin: 0 auto
+        border-radius: 10px 
+
+        .home__intro__info
+            font-size: 14px
+            color: #fff
+            padding: 25px 25px 20px 25px
+            b
+                color: #000
+
+        .home__intro__text
+            font-size: 12px
+            padding: 0px 20px 25px 23px
+
+        .intro__btn
+            margin-left: 25px
+
+
+    .circle__title
+        width: 340px
+        height: 385px
+        margin: 0 auto
+        margin-top: 47px 
+
+        .title__cards
+            margin-top: 40px
+            display: flex
+            justify-content: center
+            flex-direction: column
+            gap: 44px
+            align-items: center
+            padding: 20px 0px 0px 0px
+            .card
+                display: flex
+                flex-direction: column
+                align-items: center
+                width: 260px
+                gap: 10px
+                h5
+                    font-size: 15px
+                p
+                    text-align: center
+                    width: 160px
+                img
+                    width: 90px
+
+    // event
+
+    .event
+        background: #f2f2f2
+        padding: 14px
+        margin-top: 510px
+
+
+    .btn__bilim
+        display: flex
+        justify-content: center
+        margin-top: 61px
+        
+
+    .event__title__cards
+        display: flex
+        justify-content: space-around
+        width: 320px
+        align-items: center
+        flex-wrap: wrap
+        gap: 24px
+        margin-top: 60px
+
+        .event__card
+            width: 220px
+            border-radius: 10px
+            background: #fff 
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.20)
+            img
+                padding-top: 10px
+                margin: 0 auto
+                width: 215px
+            p
+                width: 200px
+                margin: 0 auto
+                padding: 20px 5px 0px 5px
+            .event__span
+                margin: 20px 0px 10px 28px 
+
+                
+    
+    .btn__slider__group 
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin: 0 auto
+        width: 200px
+        gap: 20px
+        .btn__slider__next
+            padding: 7px
+            border-radius: 5px
+            border: 2px solid orangered 
+            transition: 0.5s easy
+        .btn__slider__prev
+            padding: 7px
+            border-radius: 5px
+            border: 2px solid orangered 
+            transition: 0.8s 
+        .btn__slider__next:hover
+            border: 2px solid orangered 
+            color: #fff
+            transform: scale(1.07)
+            background: #FF725E
+        .btn__slider__prev:hover
+            background: #FF725E
+            border: 2px solid orangered 
+            color: #fff
+            transform: scale(1.07)
+
+    .team__card__line
+        width: 300px
+        margin: 30px auto
+        height: 407px
+        overflow: hidden
+    
+        .team__title__cards
+            display: flex 
+            justify-content: flex-start
+            width: 1200px
+            height: 407px
+            gap: 45px
+            align-items: center
+            position: relative
+            margin: 0px 0px 20px 30px 
+            left: 0
+            transition: 0.8s 
+            .team__card
+                width: 230px
+                display: flex
+                flex-direction: column
+                align-items: center
+                height: 357px
+                border-radius: 3px
+                background: #f1f1f1 
+                box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)  
+                img
+                    padding: 0px 0px 0px 0px 
+                    width: 229px
+                .profession__info
+                    padding: 10px 0px 10px 20px
+                    color: #FF725E
+                h3
+                    padding: 0px 0px 10px 20px
+                    font-size: 16px
+                    color: #000
+                .team__card__info
+                    padding: 0px 20px 20px 20px
+        
+        
+
+    .gallery
+        background: #ffffff
+
+        .gallery__title__cards
+            display: flex
+            justify-content: space-around
+            gap: 44px 
+            align-items: center
+            flex-wrap: wrap
+            margin-top: 49px
+            .gallery__group__none
+                display: block
+
+            .gallery__card
+                img
+                    width: 140px
+
+
+body
+    &.dark
+        color: white
+        background: #222
+        .home__intro
+            background-color: rgba(0, 0, 0, 0.5)
+            background-image: url(../images/back__header.webp) 
+            background-repeat: no-repeat
+            background-position: center
+            width: 100%
+            max-width: 1900px
+            margin: 0 auto
+            background-size: cover
+            padding: 40px 0px 23px 0px 
+
+
+        .home__intro__content 
+            width: 514px
+            height: 423px
+            background: #008bd0
+            border-radius: 10px 
+
+            .home__intro__info
+                font-size: 30px
+                color: #000000
+                padding: 30px 30px 25px 30px
+                b
+                    color: #ffffff
+
+            .home__intro__text
+                font-size: 20px
+                color: #fff
+                padding: 0px 30px 35px 30px
+
+            .intro__btn
+                margin-left: 30px
+
+
+        .circle__title
+            width: 1092px
+            height: 385px
+            margin: 0 auto
+            margin-top: 47px 
+            
+            
+
+            .title__cards
+                display: flex
+                justify-content: space-between
+                align-items: center
+                padding: 40px 0px 0px 0px
+
+                
+                .card.animation-class 
+                    opacity: 1
+                    transform: translateY(0px)
+                .card
+                    display: flex
+                    opacity: 0
+                    transform: translateY(50px)
+                    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out
+
+                    flex-direction: column
+                    align-items: center
+                    width: 350px
+                    gap: 10px
+                    h5
+                        font-size: 22px
+                    p
+                        text-align: center
+                        width: 350px
+
+        // event
+
+        .event
+            background: #111
+            padding: 30px
+
+
+        .btn__bilim
+            display: flex
+            justify-content: center
+            margin-top: 61px
+            
+
+        .event__title__cards
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-top: 60px
+            .event__card.animation-class
+                opacity: 1
+                transform: translateX(0px)
+            .event__card.animation-class:nth-child(2)
+                opacity: 1
+                transition-delay: 0.3s
+                transform: translateX(0px)
+            .event__card.animation-class:nth-child(3)
+                opacity: 1
+                transition-delay: 0.4s
+                transform: translateX(0px)
+        
+            .event__card
+                width: 344px
+                transition: opacity 0.2s ease-in-out, transform 0.3s ease-in-out
+                opacity: 0
+                transform: translateX(-30px)
+                border-radius: 10px
+                background: #015082 
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)
+                img
+                    padding-top: 10px
+                    margin: 0 auto
+                p
+                    width: 284px
+                    margin: 0 auto
+                    padding: 25px 0px 0px 0px
+                .event__span
+                    margin: 20px 0px 10px 28px 
+                    
+
+
+        .team
+            background: #202020
+            padding: 30px
+
+        .btn__slider__group
+                display: none
+
+        .team__title__cards
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-top: 28px
+            .btn__slider__group
+                display: none
+            .team__card
+                width: 300px
+                height: 497px
+                border-radius: 3px
+                background: linear-gradient( #010fcf, #ffffff80)
+                border: 1px solid #fff
+                box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)  
+                img
+                    padding: 0px 0px 10px 0px 
+                .profession__info
+                    padding: 0px 170px 10px 20px
+                    color: #00c2cc
+                h3
+                    padding: 0px 0px 10px 20px
+                    font-size: 22px
+                    color: #ffffff
+                .team__card__info
+                    padding: 0px 20px 52px 20px
+
+        .gallery
+            background: #111
+            
+        .gallery__title
+            margin-top: 40px
+
+            .gallery__title__cards
+                display: flex
+                justify-content: space-between
+                align-items: center
+                margin-top: 49px
+                .gallery__group__none
+                    display: none
+
+        @media screen and (max-width: 1198px) and (min-width: 890px)
+            .home__intro
+                background-color: rgba(0, 0, 0, 0.5)
+                background-image: url(../images/back__header.webp) 
+                background-repeat: no-repeat
+                background-position: center
+                width: 100%
+                max-width: 1900px
+                margin: 0 auto
+                background-size: cover
+                padding: 30px 0px 23px 0px 
+            .home__intro__content 
+                width: 434px
+                height: 303px
+                background: #008bd0
+                border-radius: 10px 
+
+                .home__intro__info
+                    font-size: 23px
+                    color: #fff
+                    padding: 10px 25px 10px 25px
+                    b
+                        color: #000
+
+                .home__intro__text
+                    font-size: 16px
+                    padding: 0px 30px 20px 30px
+
+                .intro__btn
+                    margin-left: 25px
+
+
+            .circle__title
+                width: 840px
+                height: 385px
+                margin: 0 auto
+                margin-top: 47px 
+
+                .title__cards
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    padding: 30px 0px 0px 0px
+                    .card
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        width: 240px
+                        gap: 10px
+                        h5
+                            font-size: 16px
+                        p
+                            text-align: center
+                            width: 240px
+
+            // event
+
+            .event
+                background: #222
+                padding: 25px
+
+
+            .btn__bilim
+                display: flex
+                justify-content: center
+                margin-top: 61px
+                
+
+            .event__title__cards
+                display: flex
+                justify-content: space-between
+                align-items: center
+                margin-top: 60px
+
+                .event__card
+                    width: 240px
+                    border-radius: 10px
+                    background: #015082
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+                    box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.20)
+                    img
+                        padding-top: 10px
+                        margin: 0 auto
+                        width: 235px
+                    p
+                        width: 230px
+                        margin: 0 auto
+                        padding: 20px 5px 0px 5px
+                    .event__span
+                        margin: 20px 0px 10px 28px 
+                        
+
+
+            .team
+                background: #222
+                padding: 17px
+
+            .btn__slider__group
+                display: none
+
+            .team__title__cards
+                display: flex
+                justify-content: space-between
+                align-items: center
+                margin-top: 28px
+
+                .team__card
+                    width: 230px
+                    height: 407px
+                    border-radius: 3px
+                    background: linear-gradient( #010fcf, #ffffff80)
+                    border: 1px solid #fff
+                    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)  
+                    img
+                        padding: 0px 0px 10px 0px 
+                        width: 229px
+                    .profession__info
+                        padding: 0px 170px 10px 20px
+                        color: #008bd0
+                    h3
+                        padding: 0px 0px 10px 20px
+                        font-size: 16px
+                        color: #000
+                    .team__card__info
+                        padding: 0px 5px 20px 15px
+
+            .gallery
+                background: #222
+                
+            .gallery__title
+                margin-top: 40px
+
+                .gallery__title__cards
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    margin-top: 49px
+                    .gallery__group__none
+                        display: none
+                    .gallery__card
+                        img
+                            width: 240px
+
+        @media screen and (max-width: 890px) and (min-width: 570px)
+            .home__intro
+                background-color: rgba(0, 0, 0, 0.5)
+                background-image: url(../images/back__header.webp) 
+                background-repeat: no-repeat
+                background-position: center
+                width: 100%
+                max-width: 1900px
+                object-position: 0 0
+                margin: 0 auto
+                background-size: cover
+                padding: 30px 0px 23px 0px 
+            .home__intro__content 
+                width: 334px
+                height: 253px
+                background: #008bd0
+                // margin: 0 auto
+                border-radius: 10px 
+
+                .home__intro__info
+                    font-size: 18px
+                    color: #fff
+                    padding: 8px 25px 5px 25px
+                    b
+                        color: #000
+
+                .home__intro__text
+                    font-size: 14px
+                    padding: 0px 20px 15px 23px
+
+                .intro__btn
+                    margin-left: 25px
+
+
+            .circle__title
+                width: 540px
+                height: 385px
+                margin: 0 auto
+                margin-top: 47px 
+
+                .title__cards
+                    margin-top: 40px
+                    display: flex
+                    justify-content: center
+                    gap: 44px
+                    align-items: center
+                    flex-wrap: wrap
+
+                    padding: 20px 0px 0px 0px
+                    .card
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        width: 240px
+                        gap: 10px
+                        h5
+                            font-size: 16px
+                        p
+                            text-align: center
+                            width: 180px
+                        img
+                            width: 100px
+
+            // event
+
+            .event
+                background: #222
+                padding: 25px 0px 0px 0px
+                margin-top: 210px
+
+
+            .btn__bilim
+                display: flex
+                justify-content: center
+                margin-top: 61px
+                
+
+            .event__title__cards
+                display: flex
+                justify-content: space-around
+                align-items: center
+                flex-wrap: wrap
+                gap: 14px
+                margin-top: 60px
+
+                .event__card
+                    width: 240px
+                    border-radius: 10px
+                    background: #015082
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+                    box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.20)
+                    img
+                        padding-top: 10px
+                        margin: 0 auto
+                        width: 235px
+                    p
+                        width: 230px
+                        margin: 0 auto
+                        padding: 20px 5px 0px 5px
+                    .event__span
+                        margin: 20px 0px 10px 28px 
+                        
+
+
+            .team
+                background: #222
+                padding-bottom: 450px
+                .container
+                    width: 550px    
+
+            .team__title
+                height: 300px
+                padding: 0
+
+            .btn__slider__group
+                display: none
+
+            .team__title__cards
+                transform: rotate(90deg)
+                margin-top: 108px
+                height: 500px  
+                display: flex
+                align-items: flex-end
+                
+
+                .team__card
+                    width: 157px
+                    transform: rotate(270deg)
+                    height: 157px
+                    display: flex
+                    border-radius: 3px
+                    background: linear-gradient( #010fcf, #ffffff80)
+                    border: 1px solid #fff
+                    box-shadow: 0px 0px 20px 2px rgb(74 79 255 / 35%) 
+                    img
+                        padding: 0px 0px 0px 0px 
+                        width: 207px 
+                    .info__team__card__text
+                        background: linear-gradient( #010fcf, #ffffff80)
+                        border: 1px solid #fff
+                        border-radius: 0px 5px 5px 0px
+                        width: 300px
+                        display: flex
+                        flex-direction: column         
+
+                        .profession__info
+                            padding: 10px 170px 14px 20px
+                            color: #008bd0
+                            font-size: 14px
+                        h3
+                            padding: 0px 0px 10px 20px
+                            font-size: 16px
+                            color: #000
+                            
+                        .team__card__info
+                            padding: 0px 20px 20px 20px 
+
+            .gallery
+                background: #222
+
+                .gallery__title__cards
+                    display: flex
+                    justify-content: space-around
+                    gap: 44px 
+                    align-items: center
+                    flex-wrap: wrap
+                    margin-top: 49px
+                    .gallery__group__none
+                        display: block
+
+                    .gallery__card
+                        img
+                            width: 190px
+
+        @media screen and (max-width: 570px) and (min-width: 320px)
+        
+            .home__intro__content 
+                width: 334px
+                height: 253px
+                background: #008bd0
+                margin: 0 auto
+                border-radius: 10px 
+
+                .home__intro__info
+                    font-size: 14px
+                    color: #fff
+                    padding: 25px 25px 20px 25px
+                    b
+                        color: #000
+
+                .home__intro__text
+                    font-size: 12px
+                    padding: 0px 20px 25px 23px
+
+                .intro__btn
+                    margin-left: 25px
+
+
+            .circle__title
+                width: 340px
+                height: 385px
+                margin: 0 auto
+                margin-top: 47px 
+
+                .title__cards
+                    margin-top: 40px
+                    display: flex
+                    justify-content: center
+                    flex-direction: column
+                    gap: 44px
+                    align-items: center
+                    padding: 20px 0px 0px 0px
+                    .card
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        width: 260px
+                        gap: 10px
+                        h5
+                            font-size: 15px
+                        p
+                            text-align: center
+                            width: 160px
+                        img
+                            width: 90px
+
+            // event
+
+            .event
+                background: #222
+                padding: 14px
+                margin-top: 510px
+
+
+            .btn__bilim
+                display: flex
+                justify-content: center
+                margin-top: 61px
+                
+
+            .event__title__cards
+                display: flex
+                justify-content: space-around
+                width: 320px
+                align-items: center
+                flex-wrap: wrap
+                gap: 24px
+                margin-top: 60px
+
+                .event__card
+                    width: 220px
+                    border-radius: 10px
+                    background: #015082
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+                    box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.20)
+                    img
+                        padding-top: 10px
+                        margin: 0 auto
+                        width: 215px
+                    p
+                        width: 200px
+                        margin: 0 auto
+                        padding: 20px 5px 0px 5px
+                    .event__span
+                        margin: 20px 0px 10px 28px 
+
+                        
+            
+            .btn__slider__group 
+                display: flex
+                justify-content: space-around
+                align-items: center
+                margin: 0 auto
+                width: 200px
+                gap: 20px
+                .btn__slider__next
+                    padding: 7px
+                    border-radius: 5px
+                    border: 2px solid orangered 
+                    transition: 0.5s easy
+                .btn__slider__prev
+                    padding: 7px
+                    border-radius: 5px
+                    border: 2px solid orangered 
+                    transition: 0.8s 
+                .btn__slider__next:hover
+                    border: 2px solid orangered 
+                    color: #fff
+                    transform: scale(1.07)
+                    background: #008bd0
+                .btn__slider__prev:hover
+                    background: #008bd0
+                    border: 2px solid orangered 
+                    color: #fff
+                    transform: scale(1.07)
+
+            .team__card__line
+                width: 300px
+                margin: 30px auto
+                height: 407px
+                overflow: hidden
+            
+                .team__title__cards
+                    display: flex 
+                    justify-content: flex-start
+                    width: 1200px
+                    height: 407px
+                    gap: 45px
+                    align-items: center
+                    position: relative
+                    margin: 0px 0px 20px 30px 
+                    left: 0
+                    transition: 0.8s 
+                    .team__card
+                        width: 230px
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        height: 357px
+                        border-radius: 3px
+                        background: linear-gradient( #010fcf, #ffffff80)
+                        border: 1px solid #fff 
+                        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.20)  
+                        img
+                            padding: 0px 0px 0px 0px 
+                            width: 229px
+                        .profession__info
+                            padding: 10px 0px 10px 20px
+                            color: #008bd0
+                        h3
+                            padding: 0px 0px 10px 20px
+                            font-size: 16px
+                            color: #000
+                        .team__card__info
+                            padding: 0px 20px 20px 20px
+                
+                
+
+            .gallery
+                background: #222
+
+                .gallery__title__cards
+                    display: flex
+                    justify-content: space-around
+                    gap: 44px 
+                    align-items: center
+                    flex-wrap: wrap
+                    margin-top: 49px
+                    .gallery__group__none
+                        display: block
+
+                    .gallery__card
+                        img
+                            width: 140px

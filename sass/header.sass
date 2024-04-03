@@ -1,0 +1,438 @@
+
+    
+.header__wrapper
+    display: flex
+    justify-content: space-around
+    align-items: center
+    height: 100px
+    .switchMode
+        width: 30px
+        height: 30px
+        background: linear-gradient(#ffffff, #FF725E)
+        border: 2px solid #ffe77d
+        border-radius: 50%
+    .logo
+        display: flex
+        align-items: center
+        gap: 5px 
+        p
+            font-size: 24px 
+            font-weight: 600
+            color: #000
+
+    .burgermenu
+        display: none
+    .menu>ul
+        display: flex
+        align-items: center
+        gap: 35px
+        li
+            a
+                font-size: 20px
+                color: #000
+                transition: 500ms 50ms
+                
+            a:hover  
+                color: #fe6450
+
+
+                    
+.intro
+    background-image: url(../images/gel.jpg)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover 
+    
+    &__info
+        margin: 0 auto
+        width: 800px
+        padding-top: 48px
+        padding-bottom: 48px
+        &_h1
+            color: #FFF
+            font-size: 53px
+            font-weight: 500
+            display: flex
+            justify-content: center
+
+        &_p
+            color: #FFF
+            display: flex
+            justify-content: center
+            gap: 10px
+
+.pin    
+    font-weight: 500
+
+
+@media screen and (max-width: 1198px) and (min-width: 890px)
+
+    .header__wrapper
+        display: flex
+        justify-content: space-around
+        align-items: center
+        height: 80px
+
+        .logo
+            display: flex
+            align-items: center
+            gap: 5px 
+            p
+                font-size: 18px 
+                font-weight: 600
+                color: #000
+        .burgermenu
+            display: none
+        .menu>ul
+            display: flex
+            align-items: center
+            gap: 25px
+            li
+                a
+                    font-size: 16px
+                    color: #000
+                    transition: 500ms 50ms
+                
+                a:hover  
+                    color: #fe6450
+
+
+                        
+    .intro
+        background-image: url(../images/gel.jpg)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover 
+        
+        &__info
+            margin: 0 auto
+            width: 800px
+            padding-top: 48px
+            padding-bottom: 48px
+            &_h1
+                color: #FFF
+                font-size: 43px
+                font-weight: 500
+                display: flex
+                justify-content: center
+
+            &_p
+                color: #FFF
+                display: flex
+                justify-content: center
+                gap: 10px
+
+@media screen and (max-width: 889px) and (min-width: 570px)
+    .header__wrapper
+        display: flex
+        justify-content: space-around
+        align-items: center
+        height: 65px
+
+        .logo
+            display: flex
+            align-items: center
+            gap: 5px 
+            p
+                font-size: 14px 
+                font-weight: 600
+                color: #000
+        .burgermenu
+            display: none
+        .menu>ul
+            display: flex
+            align-items: center
+            gap: 12px
+            li
+                a
+                    font-size: 13px
+                    color: #000
+                    transition: 500ms 50ms
+                
+                a:hover  
+                    color: #fe6450
+
+
+                        
+    .intro
+        background-image: url(../images/gel.jpg)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover 
+        
+        &__info
+            margin: 0 auto
+            width: 570px
+            padding-top: 34px
+            padding-bottom: 34px
+            &_h1
+                color: #FFF
+                font-size: 40px
+                font-weight: 500
+                display: flex
+                justify-content: center
+                text-align: center
+
+            &_p
+                color: #FFF
+                display: flex
+                justify-content: center
+                gap: 8px
+
+@media screen and (max-width: 570px) and (min-width: 320px)
+    .header__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .menu 
+            display: none
+
+        .burgermenu 
+            display: block
+            transition: 1s
+
+        .burger-icon 
+            font-size: 24px
+            cursor: pointer
+        
+
+        .burgermenu ul 
+            list-style-type: none
+            display: flex
+            flex-direction: column
+            align-items: center
+            width: 100%
+            position: absolute
+            top: 100px
+            left: 0
+            background-color: #fff
+            z-index: 1
+            border: 1px solid #ccc
+            display: none
+            
+    
+        .burgermenu li
+            padding: 10px
+
+
+
+
+
+body
+    &.dark
+        background: #222
+        color: white
+        .header__wrapper
+            display: flex
+            justify-content: space-around
+            align-items: center
+            height: 100px
+            .switchMode
+                width: 30px
+                height: 30px
+                background: linear-gradient(#008bd0, #000000)
+                border: 1px solid #7da6ff
+                border-radius: 50%
+            .logo
+                display: flex
+                align-items: center
+                gap: 5px 
+                p
+                    font-size: 24px 
+                    font-weight: 600
+                    color: #ffffff
+
+            .burgermenu
+                display: none
+            .menu>ul
+                display: flex
+                align-items: center
+                gap: 35px
+                li
+                    a
+                        font-size: 20px
+                        color: #e4e4e4
+                        transition: 500ms 50ms
+                
+                    a:hover  
+                        color: #7da6ff
+
+
+                            
+        .intro
+            background-image: url(../images/gel.jpg)
+            background-repeat: no-repeat
+            background-position: center
+            background-size: cover 
+            
+            &__info
+                margin: 0 auto
+                width: 800px
+                padding-top: 48px
+                padding-bottom: 48px
+                &_h1
+                    color: #FFF
+                    font-size: 53px
+                    font-weight: 500
+                    display: flex
+                    justify-content: center
+
+                &_p
+                    color: #FFF
+                    display: flex
+                    justify-content: center
+                    gap: 10px
+
+        .pin    
+            font-weight: 500
+
+
+        @media screen and (max-width: 1198px) and (min-width: 890px)
+
+            .header__wrapper
+                display: flex
+                justify-content: space-around
+                align-items: center
+                height: 80px
+
+                .logo
+                    display: flex
+                    align-items: center
+                    gap: 5px 
+                    p
+                        font-size: 18px 
+                        font-weight: 600
+                        color: #fff
+                .burgermenu
+                    display: none
+                .menu>ul
+                    display: flex
+                    align-items: center
+                    gap: 25px
+                    li
+                        a
+                            font-size: 16px
+                            color: #fff
+                            transition: 500ms 50ms
+                
+                        a:hover  
+                            color: #7da6ff
+
+
+                                
+            .intro
+                background-image: url(../images/gel.jpg)
+                background-repeat: no-repeat
+                background-position: center
+                background-size: cover 
+                
+                &__info
+                    margin: 0 auto
+                    width: 800px
+                    padding-top: 48px
+                    padding-bottom: 48px
+                    &_h1
+                        color: #FFF
+                        font-size: 43px
+                        font-weight: 500
+                        display: flex
+                        justify-content: center
+
+                    &_p
+                        color: #FFF
+                        display: flex
+                        justify-content: center
+                        gap: 10px
+
+        @media screen and (max-width: 889px) and (min-width: 570px)
+            .header__wrapper
+                display: flex
+                justify-content: space-around
+                align-items: center
+                height: 65px
+
+                .logo
+                    display: flex
+                    align-items: center
+                    gap: 5px 
+                    p
+                        font-size: 14px 
+                        font-weight: 600
+                        color: #fff
+                .burgermenu
+                    display: none
+                .menu>ul
+                    display: flex
+                    align-items: center
+                    gap: 12px
+                    li
+                        a
+                            font-size: 13px
+                            color: #fff
+                            transition: 500ms 50ms
+                
+                        a:hover  
+                            color: #7da6ff
+
+
+                                
+            .intro
+                background-image: url(../images/gel.jpg)
+                background-repeat: no-repeat
+                background-position: center
+                background-size: cover 
+                
+                &__info
+                    margin: 0 auto
+                    width: 570px
+                    padding-top: 34px
+                    padding-bottom: 34px
+                    &_h1
+                        color: #FFF
+                        font-size: 40px
+                        font-weight: 500
+                        display: flex
+                        justify-content: center
+                        text-align: center
+
+                    &_p
+                        color: #FFF
+                        display: flex
+                        justify-content: center
+                        gap: 8px
+
+        @media screen and (max-width: 570px) and (min-width: 320px)
+            .header__wrapper
+                display: flex
+                justify-content: space-between
+                align-items: center
+                .menu 
+                    display: none
+
+                .burgermenu 
+                    display: block
+                    transition: 1s
+
+                .burger-icon 
+                    font-size: 24px
+                    cursor: pointer
+                
+
+                .burgermenu ul 
+                    list-style-type: none
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    width: 100%
+                    position: absolute
+                    top: 100px
+                    left: 0
+                    background: #ffffffd3
+                    z-index: 1
+                    border: 1px solid #ccc
+                    display: none
+                    
+            
+                .burgermenu li
+                    padding: 10px
+
